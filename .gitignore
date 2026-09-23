@@ -1,4 +1,3 @@
-
 # ============================================================
 # Python
 # ============================================================
@@ -41,6 +40,9 @@ credentials.json
 # IMPORTANT: Never push WhatsApp login/session data
 # ============================================================
 
+# Is project ka asli Chrome profile folder (QR login yahan save hota hai)
+wa_profile/
+
 whatsapp_session/
 .whatsapp_session/
 
@@ -48,6 +50,16 @@ whatsapp_session/
 playwright_session/
 browser_data/
 user_data/
+
+
+# ============================================================
+# Customer Data (privacy)
+# Customers ke messages, order numbers aur bot ke replies
+# ============================================================
+
+records.csv
+records*.csv
+*.csv
 
 
 # ============================================================
@@ -128,4 +140,3 @@ output/
 outputs/
 temp/
 tmp/
-
